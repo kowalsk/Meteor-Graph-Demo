@@ -1,0 +1,26 @@
+<head>
+  <title>fresh</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+    {{> hello}}
+    {{> PieChart}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+
+<template name="PieChart">
+<div>
+<p>Variations on Greeting the World</p>
+<canvas id="canvas" width="600" height="400">
+No Love for HTML5 eh?
+</canvas>
+<p>Change the 'myData' values to see the labels dynamically adjust.</p>
+</div>
+</template>
